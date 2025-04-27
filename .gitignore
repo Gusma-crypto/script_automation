@@ -1,0 +1,39 @@
+# Ignore private key files
+privateKey.txt
+
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+
+# System files (macOS)
+.DS_Store
+
+# Log files
+*.log
+
+# Python Distribution/Packaging
+*.egg
+*.egg-info
+dist/
+build/
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage
+*.coverage
+.coverage.*
+nosetests.xml
+pytest_cache/
