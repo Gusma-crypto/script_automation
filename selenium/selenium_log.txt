@@ -1,0 +1,35 @@
+2025-04-27 11:11:00,840 - INFO - Program dimulai.
+2025-04-27 11:11:00,841 - INFO - ====== WebDriver manager ======
+2025-04-27 11:11:02,028 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-27 11:11:02,123 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-27 11:11:02,205 - INFO - Driver [C:\Users\robyk\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-27 11:11:03,533 - INFO - Membuka website https://www.example.com
+2025-04-27 11:11:05,811 - INFO - Mencari tombol untuk diklik.
+2025-04-27 11:11:05,856 - ERROR - Terjadi error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="submit_button"]"}
+  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00DDD363+60275]
+	GetHandleVerifier [0x00DDD3A4+60340]
+	(No symbol) [0x00C106F3]
+	(No symbol) [0x00C58690]
+	(No symbol) [0x00C58A2B]
+	(No symbol) [0x00CA0EE2]
+	(No symbol) [0x00C7D0D4]
+	(No symbol) [0x00C9E6EB]
+	(No symbol) [0x00C7CE86]
+	(No symbol) [0x00C4C623]
+	(No symbol) [0x00C4D474]
+	GetHandleVerifier [0x01028FE3+2467827]
+	GetHandleVerifier [0x010245E6+2448886]
+	GetHandleVerifier [0x0103F80C+2560028]
+	GetHandleVerifier [0x00DF3DF5+153093]
+	GetHandleVerifier [0x00DFA3BD+179149]
+	GetHandleVerifier [0x00DE4BB8+91080]
+	GetHandleVerifier [0x00DE4D60+91504]
+	GetHandleVerifier [0x00DCFA10+4640]
+	BaseThreadInitThunk [0x757A5D49+25]
+	RtlInitializeExceptionChain [0x7724CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x7724CE91+561]
+
+2025-04-27 11:11:05,856 - INFO - Menutup browser.
+2025-04-27 11:11:08,296 - INFO - Program selesai.
