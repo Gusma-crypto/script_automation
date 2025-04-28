@@ -4,7 +4,7 @@ from colorama import init, Fore, Style
 
 #inisialisasi 
 init(autoreset=True)
-rpc_url ="https://eth-mainnet.g.alchemy.com/v2/0fryxaVx5cQObGD-HbvaLkI_LgW9DYwQ"
+rpc_url =""
 w3 =Web3(Web3.HTTPProvider(rpc_url))
 account =Account.create()
 

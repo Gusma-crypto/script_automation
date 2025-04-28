@@ -1,6 +1,6 @@
 # Ignore private key files
 privateKey.txt
-
+.env
 # Byte-compiled files
 *.pyc
 *.pyo
